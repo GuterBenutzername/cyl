@@ -4,7 +4,7 @@ const Circle = styled.div<{$gpa: number, $goal:number}>`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  width: 102px;
   height: 100px;
   border-radius: 50%;
   background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
@@ -13,7 +13,7 @@ const Circle = styled.div<{$gpa: number, $goal:number}>`
 `;
 
 const Circle2 = styled(Circle)`
-  width: 77px;
+  width: 79px;
   height: 77px;
   background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
     conic-gradient(#5ba394 ${props => (((props.$gpa / props.$goal)*100)-100)}%, transparent 0);
@@ -36,7 +36,7 @@ export default function GPA({ gpa, goal }: { gpa: number; goal: number }) {
         >
           <span
             style={{
-              fontSize: "65%",
+              fontSize: "80%",
               height: "14px",
               lineHeight: "14px",
             }}

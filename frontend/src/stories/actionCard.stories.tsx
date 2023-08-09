@@ -10,5 +10,11 @@ export default meta;
 type Story = StoryObj<typeof actionCard>;
 
 export const Default: Story = {
-    args: {}
+    args: {
+        course: "Course",
+        courseAvgA: 82.4,
+        courseAvgB: 82.6,
+        assignmentName: "Math test 2",
+        assignmentGradeB: 75,
+      }
 }
