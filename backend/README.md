@@ -6,4 +6,4 @@ The backend of cyl handles storing assignments, courses, users, and other info, 
 
 - cyl-analyzer, handling insights, is a Rust daemon that periodically analyzes grades and stores all results into the "insights" table.
 
-- cyl-updater, handling grade updates, is a Python web-scraper run occasionally to scrape grades from multiple school district's gradebooks.
+- cyl-updater, handling grade auto-updating, is a Python web-scraper run occasionally to scrape grades from multiple school district's gradebooks.
