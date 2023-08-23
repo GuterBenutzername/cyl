@@ -8,4 +8,6 @@ This project is in it's newborn stages, so expect common breakage, unfinished/no
 
 (c) All Rights Reserved 2023 Adam Y. Cole II
 
+Copying, replicating, rewriting, or otherwise taking my code without express written permission is forbidden.
+
 This may change in the future.
